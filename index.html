@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="getCurrentImageOfTheDay()" id="body">
+    <div class="container">
+        <div class="image-sec">
+        <h1 id="heading" style="padding-top: 2vh; padding-bottom: 0vh; padding-left: 0.9vw;">NASA Picture of the Day</h2>
+        <img src="" alt="not available" id="image" style="width: 95%; height: 50%; padding-left: 0.9vw;">
+        <h3 id="title" style="padding-left: 0.9vw"></h4>
+        <p id="content" style="font-size: 1em; padding-left: 0.9vw"></p>
+    </div>
+        <h3>Search for the Picture of the Day</h3>
+        <div id="search">
+            <label>Select a Date: </label>
+            <input id="search-input" type="date">
+            <button id="btn" onclick="getImageOfTheDay()">Search</button>
+        </div>
+        <h3>Previous Searches</h3>
+        <ul id="unorder">
+            
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

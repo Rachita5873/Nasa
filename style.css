@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+
+
+.class{
+    list-style-type: none;
+}
+
+.image-sec{
+    background-color: black;
+}
+
+#heading{
+    color: white;
+}
+
+#title, #content {
+    color: white;
+}
+
+
+.list1{
+    color: blue;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.container{
+    padding-top: 1vh;
+}
